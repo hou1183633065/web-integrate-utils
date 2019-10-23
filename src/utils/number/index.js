@@ -1,3 +1,12 @@
+/*
+ * @Author: houzhiqiag 
+ * @Date: 2019-10-23 10:54:16 
+ * @Last Modified by:   houzhiqiag 
+ * @Last Modified time: 2019-10-23 10:54:16 
+ */
+
+import './prototype'
+
 export default {
 	//数字
 	isNumeric(input) {

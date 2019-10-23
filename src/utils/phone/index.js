@@ -1,3 +1,10 @@
+/*
+ * @Author: houzhiqiag 
+ * @Date: 2019-10-23 10:54:51 
+ * @Last Modified by:   houzhiqiag 
+ * @Last Modified time: 2019-10-23 10:54:51 
+ */
+
 export default {
   REGEXS: {
     //中国电信号码段			 

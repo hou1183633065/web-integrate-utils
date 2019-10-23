@@ -1,3 +1,10 @@
+/*
+ * @Author: houzhiqiag 
+ * @Date: 2019-10-23 10:55:08 
+ * @Last Modified by:   houzhiqiag 
+ * @Last Modified time: 2019-10-23 10:55:08 
+ */
+
 import email from './utils/email/index'
 import phone from './utils/phone/index'
 import string from './utils/string/index'

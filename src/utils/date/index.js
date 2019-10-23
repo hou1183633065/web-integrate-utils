@@ -1,3 +1,10 @@
+/*
+ * @Author: houzhiqiag 
+ * @Date: 2019-10-23 10:54:59 
+ * @Last Modified by:   houzhiqiag 
+ * @Last Modified time: 2019-10-23 10:54:59 
+ */
+
 export default {
 
 	// patterns: {
