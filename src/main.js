@@ -1,8 +1,8 @@
 /*
  * @Author: houzhiqiag 
  * @Date: 2019-10-23 10:55:16 
- * @Last Modified by:   houzhiqiag 
- * @Last Modified time: 2019-10-23 10:55:16 
+ * @Last Modified by: houzhiqiag
+ * @Last Modified time: 2019-10-23 11:07:50
  */
 import Vue from 'vue'
 import App from './App.vue'
@@ -13,7 +13,7 @@ import {
   array,
   number,
   date,
-  verify,
+  check,
   url,
 } from './index'
 
@@ -24,7 +24,7 @@ window.utils = {
   array,
   number,
   date,
-  verify,
+  check,
   url,
 }
 
