@@ -1,8 +1,8 @@
 /*
  * @Author: houzhiqiag 
  * @Date: 2019-10-23 10:54:42 
- * @Last Modified by:   houzhiqiag 
- * @Last Modified time: 2019-10-23 10:54:42 
+ * @Last Modified by: houzhiqiag
+ * @Last Modified time: 2019-10-23 14:57:38
  */
 
 import './prototype'
@@ -29,7 +29,7 @@ export default {
 		return input.indexOf(searchSeq) >= 0;
 	},
 	// 是否为英文
-	isEnWords() {
+	isEnWords(input) {
 		return /^[a-z]+$/i.test(input);
 	},
 	//只包含字母、空格
@@ -45,8 +45,20 @@ export default {
 		return /^[a-z0-9\s]*$/i.test(input);
 	},
 	// 是否为中文
-	isChinese() {
+	isChinese(input) {
 		return /^[\u4E00-\u9FA5]+$/.test(input);
+	},
+	// 去除空格
+	trimSpace(input) {
+		return input.replace(/\s+/g, "");
+	},
+	// 过滤字符串中特殊字符&、<、>
+	filterTag(input) {
+		input = input.replace(/&/ig, "&amp;");
+		input = input.replace(/</ig, "&lt;");
+		input = input.replace(/>/ig, "&gt;");
+		input = input.replace(" ", "&nbsp;");
+		return input;
 	},
 	//去掉中文字符
 	removeChinese(input) {
