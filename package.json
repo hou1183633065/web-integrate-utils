@@ -3,8 +3,8 @@
   "description": "A Vue.js project",
   "version": "1.0.0",
   "author": "houzhiqiang <zhq.hou@muheda.com>",
+  "main": "dist/web-common-utils.js",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "serve": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
@@ -33,5 +33,14 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hou1183633065/web-integrate-utils.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/hou1183633065/web-integrate-utils/issues"
+  },
+  "homepage": "https://github.com/hou1183633065/web-integrate-utils#readme"
 }
